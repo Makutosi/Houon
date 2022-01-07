@@ -1,0 +1,31 @@
+/* JS13_Ennuste/ 7.1.2022*/
+.container{
+  width: 360px;
+  margin: 20px auto; /* 左右autoで中央揃え*/
+  padding: 15px;
+  background: #efefef;
+  text-align: center;
+}
+
+#btn{
+  width: 200px;
+  height: 40px;
+  line-height: 40px; /*行間40px,上下の中央に文字 */
+  margin: 10px auto;　/*要素自体を中央に揃える*/
+  background: red;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 15px; /*角まるく */
+  user-select: none; /* ボタンの文字、占いが選択されないように*/
+  cursor: pointer;/* 指マーク*/
+}
+
+p{
+  margin: 30px auto;/* 上下ゆったり*/
+}
+
+#result{
+  font-size: 28px;
+  font-weight: bold;
+}
