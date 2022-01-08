@@ -1,0 +1,18 @@
+/* JS14_arvauspeli/ 8.1.2022 */
+#arvaus
+{
+  width: 240px;
+  height: 240px;
+  background-color: brown;
+  margin: 30px auto;　
+  text-align: center;
+  line-height: 240px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+/*上下30px,auto　左右まん中*/
+/* 左右の位置でまん中*/
+/*位置でまん中、要素の高さと同じ数値を指定*/
