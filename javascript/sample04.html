@@ -1,0 +1,42 @@
+<!-- JS_Youseful/ 12.7.2022-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample04</title>
+  </head>
+  <body>
+    <h1>Calculation Games</h1>
+    <script>
+      // Create a question
+      const today = new Date();
+      const q1 = today.getMilliseconds();
+      const q2 = today.getSeconds();
+      let answer = window.prompt(`${q1} + ${q2}= ?`);
+      const kuma = q1 +q2;
+      if (answer == kuma)
+      {
+          window.alert('Correct!');
+      }
+      else
+      {
+          window.alert('Outlier');
+      }
+
+    </script>
+  </body>
+</html>
+<!-- if (条件)
+     {
+     　条件が満たされた時の処理
+      }
+      else
+      [
+      　条件が満たされなかった時の処理
+      ]
+
+      ==, ===
+      A <= B
+      A >= B
+      A != B, A !== B  Aと Bが等しくない
+-->
